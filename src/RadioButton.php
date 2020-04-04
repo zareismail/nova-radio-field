@@ -1,6 +1,6 @@
 <?php
 
-namespace OwenMelbz\RadioField;
+namespace Zareismail\RadioField;
 
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;
@@ -12,7 +12,7 @@ class RadioButton extends Field
      *
      * @var string
      */
-    public $component = 'radio-field';
+    public $component = 'zareismail-radio-field';
 
     /**
      * The text alignment for the field's text in tables.
